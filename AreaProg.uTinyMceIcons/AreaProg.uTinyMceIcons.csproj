@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1703BB7C-06D0-4090-A152-E20650F40B48}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AreaProg.uTinyMceIcons</RootNamespace>
+    <AssemblyName>AreaProg.uTinyMceIcons</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Plugins\AreaProg.uTinyMceIcons\uTinyMceIcons-overlay-content.controller.js" />
+    <Content Include="App_Plugins\AreaProg.uTinyMceIcons\uTinyMceIcons-overlay-content.css" />
+    <Content Include="App_Plugins\AreaProg.uTinyMceIcons\uTinyMceIcons-overlay-content.html" />
+    <Content Include="App_Plugins\AreaProg.uTinyMceIcons\uTinyMceIcons-overlay.controller.js" />
+    <Content Include="tinyMce\css\fontawesome.min.css" />
+    <Content Include="tinyMce\css\tinymce-fa.css" />
+    <Content Include="tinyMce\langs\cs.js" />
+    <Content Include="tinyMce\langs\da.js" />
+    <Content Include="tinyMce\langs\de.js" />
+    <Content Include="tinyMce\langs\en.js" />
+    <Content Include="tinyMce\langs\es.js" />
+    <Content Include="tinyMce\langs\fr.js" />
+    <Content Include="tinyMce\langs\ja.js" />
+    <Content Include="tinyMce\langs\nl.js" />
+    <Content Include="tinyMce\langs\pt_BR.js" />
+    <Content Include="tinyMce\langs\ru.js" />
+    <Content Include="tinyMce\plugin.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App_Plugins\AreaProg.uTinyMceIcons\package.manifest" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

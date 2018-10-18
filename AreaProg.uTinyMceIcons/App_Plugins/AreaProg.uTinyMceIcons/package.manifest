@@ -1,0 +1,9 @@
+﻿{
+  javascript: [
+    "~/App_Plugins/AreaProg.uTinyMceIcons/uTinyMceIcons-overlay-content.controller.js",
+    "~/App_Plugins/AreaProg.uTinyMceIcons/uTinyMceIcons-overlay.controller.js"
+  ],
+  "css": [
+    "~/App_Plugins/AreaProg.uTinyMceIcons/uTinyMceIcons-overlay-content.css"
+  ]
+}

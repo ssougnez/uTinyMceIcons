@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaProg.uTinyMceIcons", "AreaProg.uTinyMceIcons\AreaProg.uTinyMceIcons.csproj", "{1703BB7C-06D0-4090-A152-E20650F40B48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Packaging", "Packaging", "{5627C910-177A-442F-9281-52982CB16DBE}"
+	ProjectSection(SolutionItems) = preProject
+		Packaging\build-appveyor.bat = Packaging\build-appveyor.bat
+		Packaging\build.bat = Packaging\build.bat
+		Packaging\build.xml = Packaging\build.xml
+		Packaging\package.nuspec = Packaging\package.nuspec
+		Packaging\Package.xml = Packaging\Package.xml
+		Packaging\transforms\tinyMceConfig.config.install.xdt = Packaging\transforms\tinyMceConfig.config.install.xdt
+		Packaging\transforms\tinyMceConfig.config.uninstall.xdt = Packaging\transforms\tinyMceConfig.config.uninstall.xdt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1703BB7C-06D0-4090-A152-E20650F40B48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1703BB7C-06D0-4090-A152-E20650F40B48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1703BB7C-06D0-4090-A152-E20650F40B48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1703BB7C-06D0-4090-A152-E20650F40B48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F489C21-8AFB-4A96-97C3-2E8778392A6E}
+	EndGlobalSection
+EndGlobal

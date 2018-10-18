@@ -1,0 +1,6 @@
+C:\Users\ssoug\Dropbox\Private\Github\AreaProg.uTinyMceIcons\AreaProg.uTinyMceIcons\bin\Debug\AreaProg.uTinyMceIcons.dll
+C:\Users\ssoug\Dropbox\Private\Github\AreaProg.uTinyMceIcons\AreaProg.uTinyMceIcons\bin\Debug\AreaProg.uTinyMceIcons.pdb
+C:\Users\ssoug\Dropbox\Private\Github\AreaProg.uTinyMceIcons\AreaProg.uTinyMceIcons\obj\Debug\AreaProg.uTinyMceIcons.csprojAssemblyReference.cache
+C:\Users\ssoug\Dropbox\Private\Github\AreaProg.uTinyMceIcons\AreaProg.uTinyMceIcons\obj\Debug\AreaProg.uTinyMceIcons.csproj.CoreCompileInputs.cache
+C:\Users\ssoug\Dropbox\Private\Github\AreaProg.uTinyMceIcons\AreaProg.uTinyMceIcons\obj\Debug\AreaProg.uTinyMceIcons.dll
+C:\Users\ssoug\Dropbox\Private\Github\AreaProg.uTinyMceIcons\AreaProg.uTinyMceIcons\obj\Debug\AreaProg.uTinyMceIcons.pdb

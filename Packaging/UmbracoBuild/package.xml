@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+	  <info>
+    <package>
+      <name>AreaProg.uTinyMceIcons</name>
+      <version>1.0.0-alpha-000003</version>
+      <license url="http://www.opensource.org/licenses/mit-license.php">MIT license</license>
+      <url>https://github.com/DanDiplo/Diplo.LinkChecker</url>
+      <requirements>
+        <major>0</major>
+        <minor>0</minor>
+        <patch>0</patch>
+      </requirements>
+      <iconUrl>https://our.umbraco.com/media/wiki/146296/635658606992243477_link-checker-basePNG.PNG</iconUrl>
+    </package>
+    <author>
+      <name>Sébastien Sougnez</name>
+      <website>https://www.areaprog.com/</website>
+    </author>
+    <readme><![CDATA[After installing this package you will get a Link Checker dashboard in the content section. You can set the default configuration values in config.js in /App_Plugins/Diplo.LinkChecker ]]></readme>
+  </info>
+
+  <DocumentTypes />
+  <Templates />
+  <Stylesheets />
+  <Macros />
+  <DictionaryItems />
+  <Languages />
+  <DataTypes />
+
+  <!--
+	<Actions>
+		<Action runat="install"  
+			alias="addDashboardSection" 
+			dashboardAlias="Diplo.LinkChecker">
+			 <section>
+				<areas>
+				  <area>content</area>
+				</areas>
+				<tab caption="Link Checker">
+				  <control>/App_Plugins/Diplo.LinkChecker/checker.html</control>
+				</tab>
+			 </section>
+		 </Action>
+	</Actions>
+	-->
+  
+	<control />
+
+	<files><file><guid>83120bac-1647-46e0-a505-b625ff59370e.manifest</guid><orgPath>/App_Plugins/AreaProg.uTinyMceIcons/AreaProg.uTinyMceIcons</orgPath><orgName>package.manifest</orgName></file><file><guid>f29e2bc9-70ab-4bf8-bd16-0addc93f9c39.js</guid><orgPath>/App_Plugins/AreaProg.uTinyMceIcons/AreaProg.uTinyMceIcons</orgPath><orgName>uTinyMceIcons-overlay-content.controller.js</orgName></file><file><guid>bbe93507-caba-42f4-95db-15cd9c692ada.css</guid><orgPath>/App_Plugins/AreaProg.uTinyMceIcons/AreaProg.uTinyMceIcons</orgPath><orgName>uTinyMceIcons-overlay-content.css</orgName></file><file><guid>587ac519-1969-40b2-aebf-22edf720e0b4.html</guid><orgPath>/App_Plugins/AreaProg.uTinyMceIcons/AreaProg.uTinyMceIcons</orgPath><orgName>uTinyMceIcons-overlay-content.html</orgName></file><file><guid>baff6d79-4d1a-4013-9757-1f27966552d0.js</guid><orgPath>/App_Plugins/AreaProg.uTinyMceIcons/AreaProg.uTinyMceIcons</orgPath><orgName>uTinyMceIcons-overlay.controller.js</orgName></file><file><guid>f6dc92b3-d2b7-4d08-bae9-1084ebabd10e.css</guid><orgPath>/Umbraco/lib/tinyMce/plugins/uTinyMceIcons/css</orgPath><orgName>fontawesome.min.css</orgName></file><file><guid>feeb9b91-ce81-4874-81fe-956315f97dc4.css</guid><orgPath>/Umbraco/lib/tinyMce/plugins/uTinyMceIcons/css</orgPath><orgName>tinymce-fa.css</orgName></file><file><guid>03199d8b-ac88-4d1f-a9ea-d648444d930c.js</guid><orgPath>/Umbraco/lib/tinyMce/plugins/uTinyMceIcons/langs</orgPath><orgName>cs.js</orgName></file><file><guid>ec4d390c-fb36-48ca-b4b8-24131b27161c.js</guid><orgPath>/Umbraco/lib/tinyMce/plugins/uTinyMceIcons/langs</orgPath><orgName>da.js</orgName></file><file><guid>c76e02b7-b632-48f2-bd1e-8a57cf8d4aa2.js</guid><orgPath>/Umbraco/lib/tinyMce/plugins/uTinyMceIcons/langs</orgPath><orgName>de.js</orgName></file><file><guid>56df081b-952b-4f00-bed4-51d8bc9652da.js</guid><orgPath>/Umbraco/lib/tinyMce/plugins/uTinyMceIcons/langs</orgPath><orgName>en.js</orgName></file><file><guid>ccea0cbb-64fc-4c22-8d9f-0a60393f44c6.js</guid><orgPath>/Umbraco/lib/tinyMce/plugins/uTinyMceIcons/langs</orgPath><orgName>es.js</orgName></file><file><guid>08cf8a28-cd0b-4877-a09e-a60857e18fbf.js</guid><orgPath>/Umbraco/lib/tinyMce/plugins/uTinyMceIcons/langs</orgPath><orgName>fr.js</orgName></file><file><guid>677811ad-6f71-4e39-b629-3fe08c24d476.js</guid><orgPath>/Umbraco/lib/tinyMce/plugins/uTinyMceIcons/langs</orgPath><orgName>ja.js</orgName></file><file><guid>8268f30e-39a1-45b9-8994-18c9f691be09.js</guid><orgPath>/Umbraco/lib/tinyMce/plugins/uTinyMceIcons/langs</orgPath><orgName>nl.js</orgName></file><file><guid>ab970544-aaac-4b7a-896b-f1803dcdcb3a.js</guid><orgPath>/Umbraco/lib/tinyMce/plugins/uTinyMceIcons/langs</orgPath><orgName>pt_BR.js</orgName></file><file><guid>74d2a1d3-6806-4097-a638-1e62ddbfd2e2.js</guid><orgPath>/Umbraco/lib/tinyMce/plugins/uTinyMceIcons/langs</orgPath><orgName>ru.js</orgName></file><file><guid>440582cf-ab27-448b-93b9-a4b315d17e7f.js</guid><orgPath>/Umbraco/lib/tinyMce/plugins/uTinyMceIcons</orgPath><orgName>plugin.min.js</orgName></file></files>
+
+</umbPackage>
