@@ -121,13 +121,12 @@
     <Copy SourceFiles="@(PackageFile)" DestinationFolder="$(BuildUmbDir)" />
     <Copy SourceFiles="@(AppPluginFiles)" DestinationFiles="@(AppPluginFiles->'$(BuildUmbDir)\App_Plugins\AreaProg.uTinyMceIcons\%(RecursiveDir)%(Filename)%(Extension)')" />
     <Copy SourceFiles="@(TinyMcePluginFiles)" DestinationFiles="@(TinyMcePluginFiles->'$(BuildUmbDir)\Umbraco\lib\tinyMce\plugins\uTinyMceIcons\%(RecursiveDir)%(Filename)%(Extension)')" />
-
+    
     <!--NuGet -->
-    <Copy SourceFiles="@(TinyMceXDTInstallFile)" DestinationFolder="$(BuildNuGetDir)\Content\Config" />
-    <Copy SourceFiles="@(TinyMceXDTUninstallFile)" DestinationFolder="$(BuildNuGetDir)\Content\Config" />
-
     <Copy SourceFiles="@(AppPluginFiles)" DestinationFiles="@(AppPluginFiles->'$(BuildNuGetDir)\Content\App_Plugins\%(RecursiveDir)%(Filename)%(Extension)')" />
     <Copy SourceFiles="@(TinyMcePluginFiles)" DestinationFiles="@(TinyMcePluginFiles->'$(BuildNuGetDir)\Content\Umbraco\lib\tinyMce\plugins\uTinyMceIcons\%(RecursiveDir)%(Filename)%(Extension)')" />
+    <Copy SourceFiles="@(TinyMceXDTInstallFile)" DestinationFolder="$(BuildNuGetDir)\Content\Config" />
+    <Copy SourceFiles="@(TinyMceXDTUninstallFile)" DestinationFolder="$(BuildNuGetDir)\Content\Config" />
     <Copy SourceFiles="@(NuSpecFile)" DestinationFolder="$(BuildNuGetDir)" />
 
   </Target>
