@@ -1,22 +1,19 @@
 ECHO off
 
-SET /P APPVEYOR_BUILD_NUMBER=Please enter a build number (e.g. 130):
-SET /P PACKAGE_VERISON=Please enter your package version (e.g. 1.3.0):
-SET /P UMBRACO_PACKAGE_PRERELEASE_SUFFIX=Please enter your package release suffix or leave empty (e.g. beta):
-
-SET /P APPVEYOR_REPO_TAG=If you want to simulate a GitHub tag for a release (e.g. true):
+SET /P APPVEYOR_BUILD_NUMBER=Please enter a build number: 
+SET /P PACKAGE_VERSION=Please enter your package version: 
+SET /P UMBRACO_PACKAGE_PRERELEASE_SUFFIX=Please enter your package release suffix or leave empty: 
+SET /P APPVEYOR_REPO_TAG=If you want to simulate a GitHub tag for a release: 
 
 if "%APPVEYOR_BUILD_NUMBER%" == "" (
-  SET APPVEYOR_BUILD_NUMBER=
-)
-if "%PACKAGE_VERISON%" == "" (
-  SET PACKAGE_VERISON=1.3.0
+  SET APPVEYOR_BUILD_NUMBER=1
 )
 
+if "%PACKAGE_VERSION%" == "" (
+  SET PACKAGE_VERSION=1.0.0
+)
 
-SET UMBRACO_PACKAGE_PRERELEASE_SUFFIX=
-
-SET APPVEYOR_BUILD_VERSION=%PACKAGE_VERISON%.%APPVEYOR_BUILD_NUMBER%
+SET APPVEYOR_BUILD_VERSION=%PACKAGE_VERSION%.%APPVEYOR_BUILD_NUMBER%
 
 build-appveyor.bat
 

@@ -20,4 +20,8 @@ bld/
 .vs/
 
 # Output directory
-.Output/
+Output/
+
+# Packaging temp
+Packaging/NugetBuild/
+Packaging/UmbracoBuild/

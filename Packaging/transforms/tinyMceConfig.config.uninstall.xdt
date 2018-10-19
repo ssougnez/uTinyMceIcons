@@ -4,12 +4,14 @@
              xdt:Locator="Condition(./umbracoAlias/text()='uTinyMceIcons')" />
   </commands>
   <plugins>
-    <plugin xdt:Transform="Remove" 
-            xdt:Locator="Condition(text()='noneditable')" />
     <plugin xdt:Transform="Remove"
             xdt:Locator="Condition(text()='uTinyMceIcons')" />
+    <!-- Only remove the noneditable plugin if noneditable_noneditable_class element contains only fa. Otherwise, it means that it has been configured for another plugin than uTinyMceIcons -->
+    <plugin xdt:Transform="Remove" 
+            xdt:Locator="Condition(@key='noneditable_noneditable_class' and text()='fa')" />
   </plugins>
   <customConfig>
+    <!-- Only remove the custom config if noneditable_noneditable_class element contains only fa. Otherwise, it means that it has been configured for another plugin than uTinyMceIcons -->
     <config key="noneditable_noneditable_class" 
             xdt:Transform="Remove" 
             xdt:Locator="Condition(@key='noneditable_noneditable_class' and text()='fa')">fa</config>

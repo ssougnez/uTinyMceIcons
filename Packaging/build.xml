@@ -17,23 +17,23 @@
   <!-- SHARED PROPERTIES -->
   <PropertyGroup>
     <PackageName>AreaProg.uTinyMceIcons</PackageName>
-    <MinUmbracoVersion>7.12.3</MinUmbracoVersion>
-    <Readme><![CDATA[After installing this package you will get a Link Checker dashboard in the content section. You can set the default configuration values in config.js in /App_Plugins/Diplo.LinkChecker ]]></Readme>
+    <MinUmbracoVersion>7.7.0</MinUmbracoVersion>
+    <Readme><![CDATA[uTinyMce installs a plugin allowing editors to insert font awesome icons in Umbraco rich text editor.]]></Readme>
     <AuthorName>Sébastien Sougnez</AuthorName>
     <AuthorUrl>https://www.areaprog.com/</AuthorUrl>
     <PackageLicenseName>MIT license</PackageLicenseName>
     <PackageLicenseUrl>http://www.opensource.org/licenses/mit-license.php</PackageLicenseUrl>
-    <ProjectUrl>https://github.com/DanDiplo/Diplo.LinkChecker</ProjectUrl>
+    <ProjectUrl>https://github.com/ssougnez/uTinyMceIcons</ProjectUrl>
   </PropertyGroup>
 
   <!-- NUGET ONLY PROPERTIES -->
   <PropertyGroup>
     <PackageId>AreaProg.uTinyMceIcons</PackageId>
-    <Copyright>Copyright &#169; Sébastien Sougnez.</Copyright>
+    <Copyright>Copyright &#169; Sébastien Sougnez</Copyright>
     <Owners>Sébastien Sougnez</Owners>
-    <Description>Enables editors to be able to check their Umbraco site for broken links.</Description>
+    <Description>Enables editors to insert font awesome icons in Umbraco rich text editor.</Description>
     <IconUrl>https://our.umbraco.com/media/wiki/146296/635658606992243477_link-checker-basePNG.PNG</IconUrl>
-    <Tags>umbraco linkchecker broken links</Tags>
+    <Tags>umbraco font-awesome rte</Tags>
     <Language>en-GB</Language>
     <RequireLicenseAcceptance>false</RequireLicenseAcceptance>
   </PropertyGroup>

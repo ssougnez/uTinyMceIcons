@@ -1,4 +1,11 @@
 ﻿<div ng-controller="uTinyMceIconsOverlayContentController">
+
+    <umb-control-group label="Search">
+        <label class="uTinyMceIcons__full-width">
+            <input type="text" class="uTinyMceIcons__full-width" ng-model="form.search" ng-keyup="search()" />
+        </label>
+    </umb-control-group>
+
     <umb-control-group label="Width" class="umb-property--pull">
         <label class="checkbox no-indent">
             <input type="checkbox" ng-model="model.data.fixedWidth" /> Fixed width
@@ -12,7 +19,7 @@
     </umb-control-group>
 
     <umb-control-group label="Size" class="umb-property--pull">
-        <select class="tinyMceFa__size" ng-model="model.data.size">
+        <select class="uTinyMceIcons__full-width" ng-model="model.data.size">
             <option value="normal">Normal</option>
             <option value="lg">Large</option>
             <option value="2x">2x</option>
@@ -29,11 +36,14 @@
     </umb-control-group>
 
     <umb-control-group label="Icons">
-        <div class="tinyMceFa__list">
-            <i ng-repeat="icon in icons"
-               class="tinyMceFa__icon fa fa-fw fa-{{ icon.id }}"
+        <div class="uTinyMceIcons__list">
+            <i ng-repeat="icon in result"
+               class="uTinyMceIcons__icon fa fa-fw fa-{{ icon.id }}"
+               title="{{ icon.name }}"
                ng-click="select(icon)"
-               ng-class="{ 'tinyMceFa__icon_selected': icon.id === model.data.icon }"></i>
+               ng-class="{ 'uTinyMceIcons__icon_selected': icon.id === model.data.icon }"></i>
         </div>
+        <div ng-show="result.length === 0">No icon found</div>
     </umb-control-group>
+
 </div>

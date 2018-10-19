@@ -1,4 +1,4 @@
-﻿.tinyMceFa__list {
+﻿.uTinyMceIcons__list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -6,15 +6,27 @@
     margin-left: -8px;
 }
 
-.tinyMceFa__icon {
+.uTinyMceIcons__icon {
     font-size: 36px;
     margin: 8px;
 }
 
-.tinyMceFa__size {
+.uTinyMceIcons__full-width {
     width: 100%;
 }
 
-.tinyMceFa__icon_selected {
+.uTinyMceIcons__icon_selected {
     color: #013ADF;
 }
+
+.uTinyMceIcons__clear {
+    clear: both;
+}
+
+.mce-i-uTinyMceIcons {
+    font-family: FontAwesome !important;
+}
+
+    .mce-i-uTinyMceIcons:before {
+        content: "\f024";
+    }

@@ -48,18 +48,6 @@
     <Content Include="App_Plugins\AreaProg.uTinyMceIcons\uTinyMceIcons-overlay-content.css" />
     <Content Include="App_Plugins\AreaProg.uTinyMceIcons\uTinyMceIcons-overlay-content.html" />
     <Content Include="App_Plugins\AreaProg.uTinyMceIcons\uTinyMceIcons-overlay.controller.js" />
-    <Content Include="tinyMce\css\fontawesome.min.css" />
-    <Content Include="tinyMce\css\tinymce-fa.css" />
-    <Content Include="tinyMce\langs\cs.js" />
-    <Content Include="tinyMce\langs\da.js" />
-    <Content Include="tinyMce\langs\de.js" />
-    <Content Include="tinyMce\langs\en.js" />
-    <Content Include="tinyMce\langs\es.js" />
-    <Content Include="tinyMce\langs\fr.js" />
-    <Content Include="tinyMce\langs\ja.js" />
-    <Content Include="tinyMce\langs\nl.js" />
-    <Content Include="tinyMce\langs\pt_BR.js" />
-    <Content Include="tinyMce\langs\ru.js" />
     <Content Include="tinyMce\plugin.min.js" />
   </ItemGroup>
   <ItemGroup>

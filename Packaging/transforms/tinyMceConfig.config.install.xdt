@@ -3,7 +3,8 @@
   <commands xdt:Transform="InsertIfMissing">
     <command xdt:Transform="InsertIfMissing" xdt:Locator="Condition(//tinyMceConfig/commands/command/umbracoAlias/text()='uTinyMceIcons')">
       <umbracoAlias>uTinyMceIcons</umbracoAlias>
-      <icon>images/editor/code.gif</icon>
+      <icon>images/editor/flag.gif</icon>
+      <name>Icon</name>
       <tinyMceCommand value="" userInterface="false" frontendCommand="uTinyMceIcons">uTinyMceIcons</tinyMceCommand>
       <priority>100</priority>
     </command>
