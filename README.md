@@ -42,7 +42,7 @@ Of course, if you want this icon to appear, you need to reference font awesome 4
 * An inserted icon can be edited afterwards.
 * Clean uninstall (although I hope you won't need it :-))
 
-# Planner features
+# Planned features
 
 * Umbraco 7.13 ships with font awesome 4.7, so this plugin will be updated to take the new icons into account as soon as Umbraco 7.13 is released.
 
