@@ -38,6 +38,7 @@ https://github.com/ssougnez/uTinyMceIcons</Description>
     <Tags>umbraco font-awesome rte</Tags>
     <Language>en-GB</Language>
     <RequireLicenseAcceptance>false</RequireLicenseAcceptance>
+    <ReleaseNotes>* Ensure that the uninstall script removes the "noneditable" plugin if it was only used to uTinyMceIcons.</ReleaseNotes>
   </PropertyGroup>
 
   <!-- APPVEYOR PROPERTIES -->
