@@ -27,26 +27,7 @@
   <DictionaryItems />
   <Languages />
   <DataTypes />
-
-  <!--
-	<Actions>
-		<Action runat="install"  
-			alias="addDashboardSection" 
-			dashboardAlias="Diplo.LinkChecker">
-			 <section>
-				<areas>
-				  <area>content</area>
-				</areas>
-				<tab caption="Link Checker">
-				  <control>/App_Plugins/Diplo.LinkChecker/checker.html</control>
-				</tab>
-			 </section>
-		 </Action>
-	</Actions>
-	-->
-  
 	<control />
-
 	<files />
 
 </umbPackage>

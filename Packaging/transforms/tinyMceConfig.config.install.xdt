@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <tinymceConfig xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
   <commands xdt:Transform="InsertIfMissing">
-    <command xdt:Transform="InsertIfMissing" xdt:Locator="Condition(//tinyMceConfig/commands/command/umbracoAlias/text()='uTinyMceIcons')">
+    <command xdt:Transform="InsertIfMissing" xdt:Locator="Condition(//tinymceConfig/commands/command/umbracoAlias/text()='uTinyMceIcons')">
       <umbracoAlias>uTinyMceIcons</umbracoAlias>
       <icon>images/editor/flag.gif</icon>
       <name>Icon</name>
@@ -10,8 +10,8 @@
     </command>
   </commands>
   <plugins xdt:Transform="InsertIfMissing">
-    <plugin loadOnFrontend="true" xdt:Transform="InsertIfMissing" xdt:Locator="Condition(//tinyMceConfig/plugins/plugin/text()='noneditable')">noneditable</plugin>
-    <plugin loadOnFrontend="true" xdt:Transform="InsertIfMissing" xdt:Locator="Condition(//tinyMceConfig/plugins/plugin/text()='uTinyMceIcons')">uTinyMceIcons</plugin>
+    <plugin loadOnFrontend="true" xdt:Transform="InsertIfMissing" xdt:Locator="Condition(//tinymceConfig/plugins/plugin/text()='noneditable')">noneditable</plugin>
+    <plugin loadOnFrontend="true" xdt:Transform="InsertIfMissing" xdt:Locator="Condition(//tinymceConfig/plugins/plugin/text()='uTinyMceIcons')">uTinyMceIcons</plugin>
   </plugins>
   <customConfig xdt:Transform="InsertIfMissing">
     <config key="noneditable_noneditable_class" xdt:Transform="InsertIfMissing" xdt:Locator="Match(key)">fa</config>
