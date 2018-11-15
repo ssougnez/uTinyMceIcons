@@ -18,7 +18,7 @@
   <PropertyGroup>
     <PackageName>AreaProg.uTinyMceIcons</PackageName>
     <MinUmbracoVersion>7.13.0</MinUmbracoVersion>
-    <Readme><![CDATA[uTinyMce installs a tinymce plugin allowing editors to insert font awesome 4.2 icons in Umbraco rich text editor.]]></Readme>
+    <Readme><![CDATA[uTinyMce installs a tinymce plugin allowing editors to insert font awesome 4.7 icons in Umbraco rich text editor.]]></Readme>
     <AuthorName>Sébastien Sougnez</AuthorName>
     <AuthorUrl>https://www.areaprog.com/</AuthorUrl>
     <PackageLicenseName>MIT license</PackageLicenseName>
@@ -31,7 +31,7 @@
     <PackageId>AreaProg.uTinyMceIcons</PackageId>
     <Copyright>Copyright &#169; Sébastien Sougnez</Copyright>
     <Owners>Sébastien Sougnez</Owners>
-    <Description>uTinyMce installs a tinymce plugin allowing editors to insert font awesome 4.2 icons in Umbraco rich text editor.
+    <Description>uTinyMce installs a tinymce plugin allowing editors to insert font awesome 4.7 icons in Umbraco rich text editor.
     
 https://github.com/ssougnez/uTinyMceIcons</Description>
     <IconUrl>https://www.areaprog.com/resources/img/logo.png</IconUrl>
