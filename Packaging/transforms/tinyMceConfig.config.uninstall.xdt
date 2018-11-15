@@ -1,19 +1,19 @@
 <tinymceConfig xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
   <commands>
-    <command xdt:Transform="Remove" 
+    <command xdt:Transform="Remove"
              xdt:Locator="Condition(./umbracoAlias/text()='uTinyMceIcons')" />
   </commands>
+  <customConfig>
+    <!-- Only remove the custom config if noneditable_noneditable_class element contains only fa. Otherwise, it means that it has been configured for another plugin than uTinyMceIcons -->
+    <config key="noneditable_noneditable_class"
+            xdt:Transform="Remove"
+            xdt:Locator="Condition(@key='noneditable_noneditable_class' and text()='fa')">fa</config>
+  </customConfig>
   <plugins>
     <plugin xdt:Transform="Remove"
             xdt:Locator="Condition(text()='uTinyMceIcons')" />
     <!-- Only remove the noneditable plugin if noneditable_noneditable_class element contains only fa. Otherwise, it means that it has been configured for another plugin than uTinyMceIcons -->
-    <plugin xdt:Transform="Remove" 
-            xdt:Locator="Condition(@key='noneditable_noneditable_class' and text()='fa')" />
+    <plugin xdt:Transform="Remove"
+            xdt:Locator="Condition(text()='noneditable' and count(//tinymceConfig/customConfig/config[@key='noneditable_noneditable_class']) = 0)" />
   </plugins>
-  <customConfig>
-    <!-- Only remove the custom config if noneditable_noneditable_class element contains only fa. Otherwise, it means that it has been configured for another plugin than uTinyMceIcons -->
-    <config key="noneditable_noneditable_class" 
-            xdt:Transform="Remove" 
-            xdt:Locator="Condition(@key='noneditable_noneditable_class' and text()='fa')">fa</config>
-  </customConfig>
 </tinymceConfig>
