@@ -17,7 +17,7 @@
   <!-- SHARED PROPERTIES -->
   <PropertyGroup>
     <PackageName>AreaProg.uTinyMceIcons</PackageName>
-    <MinUmbracoVersion>7.5.0</MinUmbracoVersion>
+    <MinUmbracoVersion>7.13.0</MinUmbracoVersion>
     <Readme><![CDATA[uTinyMce installs a tinymce plugin allowing editors to insert font awesome 4.2 icons in Umbraco rich text editor.]]></Readme>
     <AuthorName>Sébastien Sougnez</AuthorName>
     <AuthorUrl>https://www.areaprog.com/</AuthorUrl>
