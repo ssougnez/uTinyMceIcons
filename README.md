@@ -40,6 +40,7 @@ Of course, if you want this icon to appear, you need to reference font awesome 4
 * Change the size of the icon.
 * Add a spinning animation to the icon.
 * An inserted icon can be edited afterwards.
+* Works with RTE used in a grid. (since 1.0.2).
 * Clean uninstall (although I hope you won't need it :-))
 
 # Planned features
