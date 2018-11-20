@@ -12,7 +12,12 @@
             view: "/App_Plugins/AreaProg.uTinyMceIcons/uTinyMceIcons-overlay-content.html",
             show: false,
             submit: function () {
+                var nonEditableClass = $scope.editor.getParam('noneditable_noneditable_class', 'mceNonEditable');
                 var classes = "fa fa-" + $scope.overlay.data.icon;
+
+                if (nonEditableClass !== "fa") {
+                    classes += " " + nonEditableClass;
+                }
 
                 if ($scope.overlay.data.fixedWidth === true) {
                     classes += ' fa-fw';
