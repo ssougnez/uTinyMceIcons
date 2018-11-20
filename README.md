@@ -6,9 +6,9 @@ uTinyMce installs a tinymce plugin allowing editors to insert font awesome 4.2 i
 
 ## 1.0.3
 
-To work properly, "uTinyMceIcons" depends on the "noneditable" plugin of tinyMce. Basically, during the installation the class "fa" was defined as the "noneditable_noneditable_class" setting in the "web.config" making all the elements with this class non editable. This is required in order to avoid content editor writing content inside the "span" containing the font awesome icon.
+To work properly, "uTinyMceIcons" depends on the "noneditable" plugin of tinyMce. Basically, during the installation the class "fa" was defined as the "noneditable_noneditable_class" setting in "tinyMceConfig.config" making all the elements with this class non editable. This is required in order to avoid content editor writing content inside the "span" containing the font awesome icon.
 
-This new version now uses the name of the class defined in the "web.config" whether it's "fa" or not. This means that if you already are using this setting with another value than "fa" (for whatever reason), "uTinyMceIcons" will now use this value instead of "fa". This ensure that "uTinyMceIcons" works whether you were already using the "noneditable" plugin or not.
+This new version now uses the name of the class defined in "tinyMceConfig.config" whether it's "fa" or not. This means that if you already are using this setting with another value than "fa" (for whatever reason), "uTinyMceIcons" will now use this value instead of "fa". This ensure that "uTinyMceIcons" works whether you were already using the "noneditable" plugin or not.
 
 **Note that changing the value of this setting ("noneditable_noneditable_class") after having inserted some icons in the content can create issue with them. Indeed, once you changed the setting value, icons will become editable, that could lead to unwanted behaviors. In this case, the only solution is to change the source code in tinymce to replace the old class with the new one. Another possibility consists in clicking on the icon, trying to place the caret after it, then clicking on the flag icon in the toolbar to edit the icon. Finally, just submit the form to automatically change the class.**
 
